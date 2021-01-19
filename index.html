@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="https://kit.fontawesome.com/169bbd8201.js" crossorigin="anonymous"></script>
 </head>
@@ -57,36 +58,43 @@
         </div>
     </nav>
 
-    <article class="container mt-3">
+
+    <!-- <div class="container alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning text-center">
                     <strong>Sales Now On!</strong>
-                    <p>We've got a sale on. Get a 12 month subscription for the price of 6!</p> <a href="">See here for
+                    <p>We've got a sale on. Get a 12 month subscription for the price of 6!</p> <a href="">See here
+                        for
                         more details</a>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
-                    <p class="lead">Sign up today to start receiving the world's best whiskey every month.
-                        <s class="d-none d-sm-inline">$19.99</s>
-                        <span class="d-inline d-sm-none"><br></span>
-                        <strong><mark>first one is free!</mark></strong>
-                    </p>
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign
-                        Up!</button>
-                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink
-                            responsibly.</small></p>
-                </section>
+    </div> -->
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">
+            <div class="row">
+                <div class="col-12">
+                    <section class="callout jumbotron text-center">
+                        <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                        <hr class="block-divider block-divider--orange">
+                        <p class="lead">Sign up today to start receiving the world's best whiskey every month.
+                            <s class="d-none d-sm-inline">$19.99</s>
+                            <span class="d-inline d-sm-none"><br></span>
+                            <strong><mark>first one is free!</mark></strong>
+                        </p>
+                        <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign
+                            Up!</button>
+                        <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink
+                                responsibly.</small></p>
+                    </section>
+                </div>
             </div>
         </div>
+    </div>
 
-        <hr>
 
-
+    <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -102,7 +110,8 @@
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>I've been introduced to more than 10 great international whiskeys I never knew about.
+                                <p>I've been introduced to more than 10 great international whiskeys I never knew
+                                    about.
                                 </p>
                                 <p>- Jane Doe</p>
                             </blockquote>
@@ -126,10 +135,9 @@
                 </div>
             </div>
         </section>
+    </div>
 
-
-        <hr>
-
+    <div class="features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -171,44 +179,42 @@
             </div>
 
         </section>
+    </div>
 
-        <hr>
+    <section class="monthlyfav">
+        <h2 class="text-uppercase text-center">Monthly favorites</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Origin</th>
+                </tr>
+            </thead>
 
-        <section class="monthlyfav">
-            <h2 class="text-uppercase text-center">Monthly favorites</h2>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Origin</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td scope="col">Hibiki Harmony</td>
-                        <td scope="col">Japan</td>
-                    </tr>
-                    <tr>
-                        <td scope="col">Natu Nobilis</td>
-                        <td scope="col">Brazil</td>
-                    </tr>
-                    <tr>
-                        <td scope="col">Glenfiddich 26 Year old</td>
-                        <td scope="col">Scotland</td>
-                    </tr>
-                    <tr>
-                        <td scope="col">Jameson 18 Year Old Blended</td>
-                        <td scope="col">Ireland</td>
-                    </tr>
-                    <tr>
-                        <td scope="col">Woodford Reserve.</td>
-                        <td scope="col">USA</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </article>
+            <tbody>
+                <tr>
+                    <td scope="col">Hibiki Harmony</td>
+                    <td scope="col">Japan</td>
+                </tr>
+                <tr>
+                    <td scope="col">Natu Nobilis</td>
+                    <td scope="col">Brazil</td>
+                </tr>
+                <tr>
+                    <td scope="col">Glenfiddich 26 Year old</td>
+                    <td scope="col">Scotland</td>
+                </tr>
+                <tr>
+                    <td scope="col">Jameson 18 Year Old Blended</td>
+                    <td scope="col">Ireland</td>
+                </tr>
+                <tr>
+                    <td scope="col">Woodford Reserve.</td>
+                    <td scope="col">USA</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
     <div class="modal" tabindex="-1" id="signUpModal">
         <div class="modal-dialog">
