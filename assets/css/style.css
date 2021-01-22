@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
     font-family: 'Roboto', sans-serif;
+    margin-left: 9px;
 }
 
-.container-wrapper{}
+.container-wrapper {
+    margin-bottom: 50px;
+}
 
-.container-wrapper--red{
+.container-wrapper--red {
     background-color: #f05f40;
     color: #fff;
 }
 
-.alert-container .col-12{
+.alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
 }
 
-.site-wide-alert{
+.site-wide-alert {
     border-radius: 0;
     margin-bottom: 0;
     padding: 0 15px;
@@ -24,21 +26,20 @@ body {
     border-color: #eec802;
 }
 
-.callout-container{
+.callout-container {
     height: 100vh;
-    background: url("../images/whiskey-background.jpg") no-repeat center center fixed; 
+    background: url("../images/whiskey-background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
-.opaque-overlay{
+.opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -47,49 +48,45 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quotes-container{}
-
-.features-container{}
-
-.page-header{
+.page-header {
     margin-bottom: 0;
     border-bottom: 0;
     text-align: center;
 }
 
-.page-header h2{
+.page-header h2 {
     margin-top: 0;
 }
 
-.quotes .page-header{
+.quotes .page-header {
     margin-bottom: 25px;
 }
 
-.block-divider{
+.block-divider {
     width: 75px;
     height: 5px;
     border: 0;
     background-color: #444444;
 }
 
-.block-divider--orange{
+.block-divider--orange {
     background-color: #f05f40;
 }
 
-.block-divider--white{
+.block-divider--white {
     background-color: #fff;
 }
 
-.block-divider--short{
+.block-divider--short {
     width: 35px;
 }
 
-.content-container{
+.content-container {
     padding-top: 75px;
     padding-bottom: 75px;
 }
 
-.navalert-container{
+.navalert-container {
     position: absolute;
     top: 0;
     left: 0;
@@ -98,64 +95,61 @@ body {
     z-index: 1;
 }
 
-.navbar{
+.navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.25);
 }
 
-.navbar .navbar-toggler{
+.navbar .navbar-toggler {
     border: 0;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: #fff;
     font-weight: bold;
 }
 
-.navbar .navbar-nav a{
+.navbar .navbar-nav a {
     font-weight: bold;
 }
 
-.jumbotron{
+.jumbotron {
     background-color: transparent;
 }
 
-.jumbotron-header{
+.jumbotron-header {
     color: white;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
-.jumbotron .lead{
+.jumbotron .lead {
     margin: 25px 0;
     color: #a7a7a7;
 }
 
-.jumbotron small{
+.jumbotron small {
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
 }
 
-.btn--cta{
+.btn--cta {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
 }
 
-.btn--red{
+.btn--red {
     color: white;
     background-color: #f05f40;
     border-color: #f05f40;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus{
+.btn--red:hover, .btn--red:active, .btn--red:focus, .btn--red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
 }
@@ -179,4 +173,19 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
+}
+
+.monthlyfav {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.monthlyfav td {
+    width: 50%;
+}
+
+.thead--red {
+    background-color: #f05f40;
 }
