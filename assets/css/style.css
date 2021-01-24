@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
-    margin-left: 9px;
 }
 
 .container-wrapper {
@@ -189,3 +188,32 @@ body {
 .thead--red {
     background-color: #f05f40;
 }
+
+footer{
+    background-color: #454d55;
+    padding: 1px 0;
+}
+
+.social-icons {
+    margin: 15px 0;
+    font-size: xx-large;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.social-icons a {
+    color: #df4929;
+}
+
+.copyright {
+    color: #ffffff;
+}
+
+.vr {
+    border: 3px solid #f05f40;
+    border-radius: 25%;
+    display: inline-block;
+    height: 25px;
+    
+}
+
